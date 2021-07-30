@@ -1,0 +1,12 @@
+[submodule "blog"]
+	path = blog
+	url = git@github.com:oddstr13-openshell-no/django-app-blog.git
+[submodule "menu"]
+	path = menu
+	url = git@github.com:oddstr13-openshell-no/django-app-menu.git
+[submodule "pastebin"]
+	path = pastebin
+	url = git@github.com:oddstr13-openshell-no/django-app-pastebin.git
+[submodule "gallery"]
+	path = gallery
+	url = git@github.com:oddstr13-openshell-no/django-app-gallery.git

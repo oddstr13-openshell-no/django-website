@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load menu_tags %}
+<html>
+    <head>
+        <title>{% block title%}{% endblock %} Odd's website</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/theme.css" />
+        <link rel="stylesheet" type="text/css" href="/static/pastebin/hl/vibrantink.css" />
+        <link rel="stylesheet" type="text/css" href="/static/pastebin/hl/overwrite.css" />
+        <link rel="stylesheet" type="text/css" href="/static/pastebin/overwrite-theme.css" />
+        {% block head %}{% endblock %}
+        <script type="text/javascript">
+            /* http://stackoverflow.com/a/4723302/1035647 http*s* goddamnit Cruor. */
+            if (window.location.protocol != "https:") {
+                window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+            }
+            function fixemail() {
+                for(var i = 0, l=document.links.length; i<l; i++) {
+                    var item = document.links[i];
+                    if (item.href.substring(0, 7) == "mailto:" ) {
+                        item.href = item.href.replace("{at}",  "@");
+                        item.href = item.href.replace("{dot}", ".");
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body onload="fixemail()">
+        <div id="header" class="width">
+            Odd's litle corner on the vast plains of the world wide web
+        </div>
+        <div id="menu" class="width">
+            {% block menu %}
+            {% show_menu %}
+            {% endblock %}
+        </div>
+        <div id="content" class="width {% block content-class %}{% endblock %}">
+            {% block content %}
+            {% endblock %}
+        </div>
+        <div id="footer" class="width">
+            {% block footer %}
+            © Odd Stråbø – <a href="mailto:oddstr13{at}openshell{dot}no" title="No spam please.">E-Mail</a>
+            {% endblock %}
+        </div>
+    </body>
+</html>

@@ -1,0 +1,210 @@
+/* Averia Gruesa by Dan Sayers - http://iotic.com/averia/ */
+@font-face {
+    font-family: "Averia Gruesa";
+    src: url("type/Averia-Gruesa.eot");
+    src: local("☺"),
+        url("type/Averia-Gruesa.woff") format("woff"),
+        url("type/Averia-Gruesa.otf") format("opentype"),
+        url("type/Averia-Gruesa.ttf") format("ttf"),
+        url("type/Averia-Gruesa.svg#Averia-Gruesa") format("svg");
+}
+
+/* ConsolaMono - http://openfontlibrary.org/en/font/consolamono */
+@font-face {
+    font-family: "ConsolaMono";
+    src: url("type/ConsolaMono.eot");
+    src: local("☺"),
+        url("type/ConsolaMono.woff") format("woff"),
+        url("type/ConsolaMono.otf") format("opentype"),
+        url("type/ConsolaMono.ttf") format("ttf"),
+        url("type/ConsolaMono.svg#ConsolaMono") format("svg");
+}
+
+body {
+    background: #222;
+    color: #aaa;
+}
+
+a {
+    color: inherit;
+}
+
+.width {
+    width: 90%;
+    min-width: 800px;
+    background: #111;
+    margin: auto;
+    padding: 8px;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+h1 {
+    font-family: Averia Gruesa;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: Averia Gruesa;
+    font-size: 1.8em;
+}
+
+h3 {
+    font-family: Averia Gruesa;
+    font-size: 1.6em;
+}
+
+h4 {
+    font-family: Averia Gruesa;
+    font-size: 1.4em;
+}
+
+h5 {
+    font-family: Averia Gruesa;
+    font-size: 1.2em;
+}
+
+#header {
+    /*font-weight: bold;*/
+    font-size: 2em;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    font-family: Averia Gruesa;
+    text-shadow: black 2px 2px 2px;
+}
+
+#content {
+}
+
+#content input,textarea,option,select {
+    background: #222;
+    color: #aaa;
+    border-width: 1px;
+    border-color: #000;
+}
+
+#content textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 400px;
+    height: auto;
+    min-height: 100px;
+}
+
+#menu {
+    border-radius: 8px 8px 0 0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #222;
+}
+
+#menu ul {
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#menu ul li a {
+    padding: 8px;
+    width: auto;
+}
+
+#menu ul li a:hover {
+    background: #1a1a1a;
+}
+
+#footer {
+    border-radius: 0 0 8px 8px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #222;
+    text-align: center;
+}
+
+/* Tag stuff */
+.tagcloud {
+    width: 280px;
+    margin: 0px;
+    padding: 0px;
+    background: #000;
+    text-align: center;
+    border-radius: 4px;
+    float: right;
+}
+
+.tagcloud .item {
+    background: #333;
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.tagcloud a {
+    text-decoration: none;
+}
+
+.tagcloud .s1 { color: #777; }
+.tagcloud .s2 { color: #999; }
+.tagcloud .s3 { color: #bbb; }
+.tagcloud .s4 { color: #ddd; }
+.tagcloud .s5 { color: #fff; }
+
+.taglist {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* background: #000; */
+    text-align: center;
+}
+
+.taglist .item {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.taglist a {
+    background: #222;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin: 2px;
+    padding: 4px;
+}
+
+/* Blog */
+.blogpost_header {
+    text-align: center;
+    clear: both;
+}
+
+.blogimage {
+    background: #333;
+    text-align: center;
+    margin: 4px auto;
+    padding-bottom: 4px;
+    border-radius: 0 0 6px 6px;
+}
+
+.blogpost_footer {
+    width: 100%;
+    text-align: center;
+}
+
+.hr {
+    height: 4px;
+    border-radius: 3px;
+    background: #333;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
