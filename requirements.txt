@@ -1,0 +1,15 @@
+Creoleparser==0.7.4
+Django==1.7
+Genshi==0.7
+PIL==1.1.7
+Pygments==2.0.2
+argparse==1.2.1
+distribute==0.6.24
+django-taggit==0.12.3
+django-taggit-templatetags==0.4.6dev
+django-templatetag-sugar==0.1
+gunicorn==18.0
+psycopg2==2.5.1
+pytz==2014.2
+sorl-thumbnail==11.12.1b
+wsgiref==0.1.2
