@@ -11,7 +11,18 @@
         <script type="text/javascript">
             /* http://stackoverflow.com/a/4723302/1035647 http*s* goddamnit Cruor. */
             if (window.location.protocol != "https:") {
-                window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+                var https_url = "https:" + window.location.href.substring(window.location.protocol.length)
+                var http = new XMLHttpRequest();
+                http.timeout = 2000;
+                http.open('HEAD', https_url);
+                http.onreadystatechange = function() {
+                    if (this.readyState == this.DONE) {
+                        if (this.status && this.status < 400) {
+                            window.location.href = https_url;
+                        }
+                    }
+                };
+                http.send();
             }
             function fixemail() {
                 for(var i = 0, l=document.links.length; i<l; i++) {

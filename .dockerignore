@@ -1,0 +1,23 @@
+# Config examples and documentation
+nginx.example.conf
+supervisor.example.conf
+
+# Django media files – These belong in a volume.
+media/
+static/
+db.sqlite3
+
+# Git and IDE files
+**/.vscode/
+**/.git/
+**/.gitignore
+**/.gitmodules
+**/.hgignore
+
+# Python object files
+**/*.py[ocd]
+
+# Docker files not needed inside the container
+docker-compose.yaml
+Dockerfile
+.dockerignore

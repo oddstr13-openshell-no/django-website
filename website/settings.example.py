@@ -9,9 +9,15 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.7/ref/settings/
 """
 
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+_strip_num = len(__name__.split('.'))
+BASE_DIR = __file__
+for n in range(_strip_num):
+    BASE_DIR = os.path.dirname(BASE_DIR)
+
+MY_DIR = os.path.dirname(__file__)
 
 
 # Quick-start development settings - unsuitable for production
@@ -111,7 +117,7 @@ DATABASES = {  # TODO: CHANGEME
     #},
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(MY_DIR, 'db.sqlite3'),
     },
 }
 
@@ -137,7 +143,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.environ.get('WEBSITE_STATIC') or os.path.join(BASE_DIR, "static")
 
 STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
@@ -148,7 +154,7 @@ STATICFILES_DIRS = (
 
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+MEDIA_ROOT = os.environ.get('WEBSITE_MEDIA') or os.path.join(BASE_DIR, "media")
 
 
 # Taggit
@@ -158,4 +164,4 @@ TAGGIT_TAGCLOUD_MAX = 5
 # Sorl
 THUMBNAIL_FORMAT = 'PNG'
 THUMBNAIL_QUALITY = 100
-
+THUMBNAIL_DEBUG = DEBUG
