@@ -1,4 +1,6 @@
-FROM python:2
+FROM python:2.7-slim-stretch
+
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
 
 WORKDIR /website
 
@@ -8,7 +10,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 VOLUME /media /static /config
 ENV WEBSITE_MEDIA=/media WEBSITE_STATIC=/static
-
 
 COPY . ./
 

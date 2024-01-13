@@ -1,0 +1,161 @@
+==================================================================
+https://keybase.io/oddstr13
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://oddstr13.openshell.no
+  * I am oddstr13 (https://keybase.io/oddstr13) on keybase.
+  * I have a public key with fingerprint 064E 5F03 6F57 151B D841  AC7F 1E25 D2F7 8255 4AE6
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.18"
+        },
+        "key": {
+            "eldest_kid": "0101127014249e78e4a0bddb5a3b56ee9e3a0b65d592f0f3146a3364851eafd718060a",
+            "fingerprint": "064e5f036f57151bd841ac7f1e25d2f782554ae6",
+            "host": "keybase.io",
+            "key_id": "1e25d2f782554ae6",
+            "kid": "0101127014249e78e4a0bddb5a3b56ee9e3a0b65d592f0f3146a3364851eafd718060a",
+            "uid": "ed58d5df2f500d0ed2127ba7b8982400",
+            "username": "oddstr13"
+        },
+        "service": {
+            "hostname": "oddstr13.openshell.no",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1442714915,
+    "expire_in": 157680000,
+    "prev": "38c85f67f0080cd7f2811db370bd4e159667ff8ffee6147549c20dd1d3c0a208",
+    "seqno": 18,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owGtkntQVFUcx5eniwWRQgMiyNzGHrZs99y9r10YGydykKdEiwNly717zoUry95l
+7wUltYkaW0gmGWlCc5BXSY/h8QfYKCKlsowRjrYMlAU2g2C45mipKM5Q9zI0U01/
+dv46c87n9/19f99z6sODdPqAhPXfzb9tTZ8NGJnjddbF6Cd3Y7wEqzDLbszuEJFT
+0XZOrgxhFqwUVfGcjIyilOiUIDLukBOXGQNWidyyKDlVCjeyRsBiew0ar1UjB0Sy
+YisVoXYLcAAIBgckQZoRwyKSw3kIeYoz8RSNkBmZ1AOagpSZEHDBBEiaM5lokqUA
+4gTIABancU5tKIjOYuR2uUXNIobTJKIE3EQLFAMowEOWBJydEQAiKEgIDEtQFMkh
+Wi0skWTlH8NgS05tS/b+g/+ffVcsySFIsZCCAiFQOA5xBAlVnOcYnjWzBInjGigj
+93LwEoSy4gYmLVT1tFK0Iy1YbZJ/EUbJhZxyCXI4jE5tMJdbUiS75FCREkVxyRZN
+QqlyaTU7EW9bVrPxohO2qYn+/SWBitoVUdMHJEkwgDQDyoChXS7RjWyiRlAMzeLq
+0hqhSlXTxNpZSqAZAcdZ3A4ZgWABgLyJUcMiEaDMtHonsIKAEA1IhiLNdgKHEECT
+HecInMW0ActV6xbAqka5YlVTFoudnFLhRtje2sC1wboAvS40JFD7q7qVYZF/feDt
+8mOLlm+fjgipf7HGn7S+8pnyAF/toDX2pj/V2zi+YqqokUn4oq09a9viwOuRDzv3
+bXH0dBy2fHjB/Hz/C8dWP5iq/qnv3Z6GbXxvy4lU+0Jc6djF1py1/S3J+anBbLVj
+X+ZLkZShbi76ljuuKe6e13DuTuOa2dG2DR3DPyqdvHn0/eeuJ1VUtLZfHfMf03s7
+jya+yn7cM1pfcy3sCD+CfH+Y1gXHdvjOZN+z6raCb8aLFuT8lUOHzkW1X8gb39g4
+mDKc8tm6Ms+e6rThylWeG8Png6NSfFfYxwc9O/IMV2+ems6aD8/6JfO+7amLjkse
+FmNuuz2bqVrbeHZViC1yYJLNa49Iul93utD6iPf7g901TU8MvJkfWti85/fgimrd
+gQnhbPShESzm8uQ7NSdz+xv8Hxydfdk7VVT10XvHz0+H8D8HXpnxzV5fdefswcQC
+a+gPZ04/SM6wxYfpOxbCPTc2R5Tfjbl7bevx+Tf2F6KEw3MRI1G/oYlLC5/eGqyb
+zE2bfE3/MHN1t7UrZntaaeqRmoRXlI07c7tGBtoOlIf6+9ZIzQsZM71zb63IF3qz
+TrZkf/Lrps93TT97Kmr/nG/6sn8TFrkh2aYfKkhPL9niHQqvb53oas7J6MsyBBXL
+oWR6xqOxLbNiWNqXYzNNsthQtlhQbKn/Kkf5uiPodnxJ2Il46+i+/qSg6e6uPwE=
+=QKsn
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/oddstr13
+
+==================================================================
+
+==================================================================
+https://keybase.io/oddstr13
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://oddstr13.openshell.no
+  * I am oddstr13 (https://keybase.io/oddstr13) on keybase.
+  * I have a public key with fingerprint 6B1D 5C50 3394 2115 74E0  3B99 0C6C 853F 5A37 BCEF
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.5.1"
+        },
+        "key": {
+            "fingerprint": "6b1d5c503394211574e03b990c6c853f5a37bcef",
+            "host": "keybase.io",
+            "key_id": "0C6C853F5A37BCEF",
+            "uid": "ed58d5df2f500d0ed2127ba7b8982400",
+            "username": "oddstr13"
+        },
+        "merkle_root": {
+            "ctime": 1409690535,
+            "hash": "7e41f1600a1e12e77460d5fd30bd6c26175590ee510ad9db25a45adbd6a2663a7885c12e9fc757742d981ecb50e84039668ec5f724a752db15a31cad286baeee",
+            "seqno": 46071
+        },
+        "service": {
+            "hostname": "oddstr13.openshell.no",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1409690743,
+    "expire_in": 157680000,
+    "prev": "9fe1de126c0eb3ae545853b1357f4cc6bd1fe45069536783f95a1461768a90a1",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFdUntQFVUcvqASKIXlFA5g0gZNM+Jlz+6efWAlgS9MLpq81FvX3T1nvcuF3cve
+C8rANafShkCIMV+jDNgQKb1HMYsbTFOOFo5TqIUOaQkIDA7JROULaNehGe38dc78
+vt/3/b7vd955eJotNCSycPvi9Vzwj5DOIcmWHZa0v5yQdFRGpJQTcqGKNb9108Qi
+TKQQHlwmiT5sV/V4TUfYXuCLn8IkEaXY8Km6ZqJIO7QDIpBkwa1mRdU2YcNrqBYX
+wUoAQRmSNC0wFACQYzBJS4JAyqzMQ1qBIs1JMlZMSrfu8z+gStzjdKnIUkln0038
+MvgizaWlL11m1kruFTCCPIJIoRRIkojEiAIUJ4mcxAs8xZCkBfRhY8qSjpDPbwDa
+mrcIG55C7DJ0/Z5p2a9aEMCQAiuQkIbmRKLPbTZxmAEKYElSBBhQmOMYlkRQQTQp
+IVamWMBBKJAYQ0CKSEASBUUGisgsihTL0iLH81A2GwVF5qDZTSGBB1iWIIl5hqQF
+luWxDBWOYkQOUkgCZihAFhHFs5KIMTYt+HCxphMppjAHAtbTKFVlbI1tpfY/c3bd
+izWfGxcW2jUrRK+h+3VZLzQhbr/fm2KZ95d5W62ezVhyTbG5JFVD5vLu364l9mAw
+HEMnEXiLVzWwS7UQkGN50jyWDi41KQUFA2QGxcoklmgRQwaam5MADTmFkWVWQkDB
+DCRZAdIsx9OKAEXAmCmyvCiYGd9n15xT3GRS+tRNmugvMTARqAyNm24LCbWFzQi1
+vq9tZsTs//70hsmou1Gh/1zPdZ7+fuISxfcO59RPN+jEhw71ZY1faFNuONrGVNvF
+4zXh1/KiysI8qWsdC79Kcw1ubh86oqXm3o6TUNyZlvqsn6pbxto+6FLGX94bNe9M
+bDDYH3Y2ZjVVFsgKhBd/DVDshcvx6e6h0wUtkz3DgcrFh4mInIhH3vVNjuGrH/7C
+vbn8+VuLfvxuXePrCdlZn/S6535c9Vb5bhqfVZITPJfAr5HXBr1Xtn00mNvUGNyw
+ccn+vgrHq02tvX9FLgkxbnpO52/pdTe7DRV0ZDREv//3aF7gsStXtTXO87+3Z94o
+Dg8Lr+kOVtaVrM4/UuSMrsk9Fv/KSWdF8a5ze2Pm7GgZWXuqn16ZvHTO27096beJ
+li8X+keaG3I6bBdnJvYPPLlj+3Tx6Dcrjr4QkiGPX8iOKUJV3x5qwgeYYXSgJPbW
+rOBwwcmKJ7KnTTiqh+o++6G5J/qZ0gI5bndNwpb8PbGXi7r3LHKc25c9sy6m7jXb
+1so12zIrP78zsFOZXKCszE90HtxVd6LxUeB9avap2szSgRFtY07W7nkrZo+mxaef
+bzpR/axnpLY9oQuevfGG807G0xkdd+d31OcMrfot0P34S6vcxz+dty/v57yIL2bF
+dLqSq/7kFkx2BR13k+ZurU0mb15X32voPL/w4PrlkdzOnqp1rdsPFzc+p50Zd2aM
+zB9NzTxW0jfBzvgX
+=VUjk
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/oddstr13
+
+==================================================================
+

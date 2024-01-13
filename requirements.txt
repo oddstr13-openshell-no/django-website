@@ -5,7 +5,7 @@ Pillow==3.4.2
 Pygments==2.0.2
 argparse==1.2.1
 django-taggit==0.12.3
-git+https://github.com/oddstr13-openshell-no/django-taggit-templatetags.git@90d02b4#egg=django-taggit-templatetags
+https://github.com/oddstr13-openshell-no/django-taggit-templatetags/archive/90d02b4.zip#egg=django-taggit-templatetags
 django-templatetag-sugar==0.1
 gunicorn==18.0
 #psycopg2==2.5.1

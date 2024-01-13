@@ -16,7 +16,10 @@ fi
 
 # Clear stale (missing) thumbnail files
 python ./manage.py thumbnail cleanup
+python ./manage.py migrate --noinput --no-initial-data
+python manage.py collectstatic --noinput
 
+python ./manage.py validate
 echo "Starting Django..."
 # TODO: replace with proper reverse proxy
 python ./manage.py runserver --verbosity=3 --traceback --insecure 0.0.0.0:8000
