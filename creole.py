@@ -92,8 +92,8 @@ dialect = creoleparser.create_dialect(
 _text2html = creoleparser.Parser(dialect)
 
 def parse(txt):
-    if type(txt) != type(u""):
-        txt = unicode(txt, "utf-8")
+    if not isinstance(txt, str):
+        txt = str(txt, "utf-8")
     return _text2html(txt)
 
 
