@@ -1,4 +1,4 @@
-from django.conf.urls import include, url
+from django.urls import include, re_path
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -13,12 +13,12 @@ import gallery.urls
 import pastebin.urls
 
 urlpatterns = [
-    url(r"^admin/", admin.site.urls),
-    url(r"^paste/", include(pastebin.urls)),
-    url(r"^gallery/", include(gallery.urls)),
-    url(r"^blog/", include(blog.urls)),
+    re_path(r"^admin/", admin.site.urls),
+    re_path(r"^paste/", include(pastebin.urls)),
+    re_path(r"^gallery/", include(gallery.urls)),
+    re_path(r"^blog/", include(blog.urls)),
     # http://www.stepforth.com/blog/2008/redirects-permanent-301-vs-temporary-302/
-    url(r"^$", RedirectView.as_view(url="/blog/", permanent=False), name="index"),
+    re_path(r"^$", RedirectView.as_view(url="/blog/", permanent=False), name="index"),
 ]
 
 if settings.DEBUG:

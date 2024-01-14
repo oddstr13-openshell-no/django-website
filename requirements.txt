@@ -1,13 +1,13 @@
 Creoleparser==0.7.5
-Django~=3.2.0
+Django~=4.2.9
 Genshi==0.7.7
 Pillow~=10.2
 Pygments==2.17.2
-django-taggit~=4.0.0
+django-taggit~=5.0.1
 https://github.com/oddstr13-openshell-no/django-taggit-templatetags/archive/90d02b4.zip#egg=django-taggit-templatetags
 django-templatetag-sugar==1.0
 gunicorn~=21.2.0
 #psycopg2==2.5.1
 pytz~=2023.3
-sorl-thumbnail==12.9.0
+sorl-thumbnail==12.10.0
 python-dotenv==1.0.0
