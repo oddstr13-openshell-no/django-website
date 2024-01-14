@@ -1,5 +1,5 @@
 Creoleparser==0.7.5
-Django~=1.11
+Django~=2.0
 Genshi==0.7.7
 Pillow~=10.2
 Pygments==2.5.2

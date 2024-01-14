@@ -29,7 +29,7 @@ def macro_paste(macro, environ, id):
 
 from gallery.models import Image
 from sorl.thumbnail import get_thumbnail
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 
 def margin(im, x, y):
     # from sorl
@@ -89,7 +89,7 @@ dialect = creoleparser.create_dialect(
     },
 
 )
-_text2html = creoleparser.Parser(dialect)
+_text2html = creoleparser.Parser(dialect, encoding=None)
 
 def parse(txt):
     if not isinstance(txt, str):
