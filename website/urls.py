@@ -13,7 +13,7 @@ import gallery.urls
 import pastebin.urls
 
 urlpatterns = [
-    url(r"^admin/", include(admin.site.urls)),
+    url(r"^admin/", admin.site.urls),
     url(r"^paste/", include(pastebin.urls)),
     url(r"^gallery/", include(gallery.urls)),
     url(r"^blog/", include(blog.urls)),

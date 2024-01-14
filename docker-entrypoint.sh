@@ -15,7 +15,7 @@ if [ ! -f "${WEBSITE_CONFIG}/settings.py" ]; then
 fi
 
 # Clear stale (missing) thumbnail files
-python ./manage.py migrate --noinput --no-initial-data
+python ./manage.py migrate --noinput
 
 python manage.py collectstatic --noinput
 
