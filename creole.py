@@ -58,7 +58,7 @@ def macro_image(macro, environ, id, caption=None):
         result += u'<div class="blogimage" style="width:{width}px;"><a href="{url}"><img style="padding:0;" src="{image}" width="{width}" height="{height}" alt="{title}" title="{title}" /></a>{caption}</div>'.format(
             margin = margin(th, 780, 482),
             image  = th.url,
-            url    = reverse("gallery.views.image", kwargs={'id':id}),
+            url    = reverse("gallery-image", kwargs={'id':id}),
             width  = th.x,
             height = th.y,
             title  = im.title,
