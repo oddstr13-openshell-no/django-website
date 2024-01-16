@@ -1,13 +1,13 @@
-{#% load taggit_extras %#}
+{% load taggit_extras %}
 
-{#% if forvar %}
+{% if forvar %}
 {% get_taglist as tags for forvar %}
 {% else %}
 {% get_taglist as tags %}
-{% endif %#}
+{% endif %}
 
 <ul class="taglist">
-{#% for tag in tags %}
+{% for tag in tags %}
 <li>{{tag}}</li>
-{% endfor %#}
+{% endfor %}
 </ul>

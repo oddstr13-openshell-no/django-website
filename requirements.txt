@@ -4,7 +4,8 @@ Genshi==0.7.7
 Pillow~=10.2
 Pygments==2.17.2
 django-taggit~=5.0.1
-https://github.com/oddstr13-openshell-no/django-taggit-templatetags/archive/90d02b4.zip#egg=django-taggit-templatetags
+https://github.com/oddstr13-openshell-no/django-taggit-templatetags/archive/f4d458b.zip#egg=django-taggit-templatetags
+https://github.com/oddstr13-openshell-no/django-templatetag-sugar/archive/7a0a9b3.zip#egg=django-templatetag-sugar
 django-templatetag-sugar==1.0
 gunicorn~=21.2.0
 #psycopg2==2.5.1
